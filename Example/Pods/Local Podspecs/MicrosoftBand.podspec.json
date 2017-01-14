@@ -1,0 +1,27 @@
+{
+  "name": "MicrosoftBand",
+  "version": "0.1.0",
+  "summary": "MicrosoftBand Pod for IoT Porjects.",
+  "description": "Swift wraper for MicrosoftBand, to use it with NativeScript plugins.",
+  "homepage": "https://github.com/xmlking/MicrosoftBand",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sumanth Chinthagunta": "xmlking+github@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/xmlking/MicrosoftBand.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/xmlking",
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "vendored_frameworks": "MicrosoftBandKit_iOS.framework"
+  },
+  "source_files": "MicrosoftBand/**/*",
+  "requires_arc": true
+}

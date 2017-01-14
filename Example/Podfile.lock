@@ -1,0 +1,16 @@
+PODS:
+  - MicrosoftBand (0.1.0)
+
+DEPENDENCIES:
+  - MicrosoftBand (from `../`)
+
+EXTERNAL SOURCES:
+  MicrosoftBand:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MicrosoftBand: 03c72bb1a0f8c2fddce3cf53cd9ebaf07ae2b161
+
+PODFILE CHECKSUM: 0670d7ff491f374f7e923c69a7727eac487cc383
+
+COCOAPODS: 1.2.0.beta.1
