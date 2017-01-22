@@ -37,4 +37,6 @@ Sumanth, @xmlking
 
 ## License
 
-MicrosoftBand is available under the MIT license. See the LICENSE file for more info.
+This MicrosoftBand Pod is available under the MIT license. See the LICENSE file for more info.
+Third Party Software:
+Microsoft Band SDK is udner Microsoft's license.
