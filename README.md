@@ -7,15 +7,6 @@ Swift wrapper API for Microsoft Band SDK.
 [![License](https://img.shields.io/cocoapods/l/MicrosoftBand.svg?style=flat)](http://cocoapods.org/pods/MicrosoftBand)
 [![Platform](https://img.shields.io/cocoapods/p/MicrosoftBand.svg?style=flat)](http://cocoapods.org/pods/MicrosoftBand)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-For clean installing Pod into example project, from the Example directory run this:
-```
-rm Pods/Manifest.lock && rm Podfile.lock && pod install
-```
-
 ## Requirements
 
 Swift > 3, xcode > 8.x
@@ -28,6 +19,17 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "MicrosoftBand"
 ```
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+For clean installing Pod into example project, from the Example directory run this:
+```
+rm Pods/Manifest.lock && rm Podfile.lock && pod install
+```
+
+> In xCode, You may have to drag and drop `MicrosoftBandKit_iOS.framework` from `Pods\...\MicrosoftBand\Frameworks` into your projects' `Linked Frameworks and Libraries`
 
 ## Author
 
