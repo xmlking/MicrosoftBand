@@ -227,6 +227,7 @@ func getCurrentMillis()->NSInteger{
         case None, Low, Medium, High, VeryHigh
     }
     
+    // Total UV exposure today in minutes
     public let exposureToday:UInt
     public let uvIndexLevel:IndexLevel
 
