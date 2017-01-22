@@ -13,7 +13,6 @@
 		7D63D9DB1E21967B001E445F /* MicrosoftBandKit_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D63D9DA1E21967B001E445F /* MicrosoftBandKit_iOS.framework */; };
 		7D63D9DD1E2196C2001E445F /* MicrosoftBand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63D9DC1E2196C2001E445F /* MicrosoftBand.swift */; };
 		7D63D9DF1E21980A001E445F /* AbstractModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D63D9DE1E21980A001E445F /* AbstractModel.swift */; };
-		7D63D9E41E21E70C001E445F /* DIY.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D63D9E01E21E70C001E445F /* DIY.md */; };
 		7D63D9E51E21E70C001E445F /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7D63D9E11E21E70C001E445F /* LICENSE */; };
 		7D63D9E61E21E70C001E445F /* MicrosoftBand.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7D63D9E21E21E70C001E445F /* MicrosoftBand.podspec */; };
 		7D63D9E71E21E70C001E445F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7D63D9E31E21E70C001E445F /* README.md */; };
@@ -39,7 +38,6 @@
 		7D63D9DA1E21967B001E445F /* MicrosoftBandKit_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MicrosoftBandKit_iOS.framework; sourceTree = "<group>"; };
 		7D63D9DC1E2196C2001E445F /* MicrosoftBand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicrosoftBand.swift; sourceTree = "<group>"; };
 		7D63D9DE1E21980A001E445F /* AbstractModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractModel.swift; sourceTree = "<group>"; };
-		7D63D9E01E21E70C001E445F /* DIY.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = DIY.md; sourceTree = "<group>"; };
 		7D63D9E11E21E70C001E445F /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7D63D9E21E21E70C001E445F /* MicrosoftBand.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MicrosoftBand.podspec; sourceTree = "<group>"; };
 		7D63D9E31E21E70C001E445F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 		7D63D9B51E2195F4001E445F = {
 			isa = PBXGroup;
 			children = (
-				7D63D9E01E21E70C001E445F /* DIY.md */,
 				7D63D9E11E21E70C001E445F /* LICENSE */,
 				7D63D9E21E21E70C001E445F /* MicrosoftBand.podspec */,
 				7D63D9E31E21E70C001E445F /* README.md */,
@@ -215,7 +212,6 @@
 				7D63D9E61E21E70C001E445F /* MicrosoftBand.podspec in Resources */,
 				7D63D9E71E21E70C001E445F /* README.md in Resources */,
 				7D63D9E51E21E70C001E445F /* LICENSE in Resources */,
-				7D63D9E41E21E70C001E445F /* DIY.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
