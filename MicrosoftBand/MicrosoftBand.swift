@@ -217,7 +217,7 @@ public class MicrosoftBand: NSObject, Peripheral, MSBClientManagerDelegate {
                         return DistanceData.MotionType.Running
                     }
                 }()
-                completion( DistanceData(totalDistance: data.distanceToday, distanceToday: data.distanceToday,
+                completion( DistanceData(totalDistance: data.totalDistance , distanceToday: data.distanceToday,
                                          speed:data.speed, pace:data.pace, motionType: motionType), error)
             } else {
                 completion(nil, error)
