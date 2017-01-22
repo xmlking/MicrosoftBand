@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MicrosoftBand'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'MicrosoftBand Pod for IoT Porjects.'
   s.description      = <<-DESC
                         Swift wrapper for MicrosoftBand SDK, to use it with NativeScript plugins.
