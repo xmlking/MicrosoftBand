@@ -127,7 +127,7 @@ public class MicrosoftBand: NSObject, Peripheral, MSBClientManagerDelegate {
                 if(error == nil) {
                     userConsent(isGranted)
                 } else {
-                    print("[MSB] Error requestHRUserConsent: \(error)")
+                    print("[MSB] Error requestHRUserConsent: \(String(describing: error))")
                     userConsent(false)
                 }
             })
@@ -405,7 +405,7 @@ public class MicrosoftBand: NSObject, Peripheral, MSBClientManagerDelegate {
                 let tile = try? MSBTile(id: tileId, name: tileName, tileIcon: tileIcon, smallIcon: smallIcon)
                 
                 currentClient.tileManager.add(tile){ error in
-                    if error != nil && (error as! NSError).code != MSBErrorType.tileAlreadyExist.rawValue {
+                    if error != nil && (error! as NSError).code != MSBErrorType.tileAlreadyExist.rawValue {
                          completion?(error)
                     }
                 }
